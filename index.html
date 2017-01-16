@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Github Profile App - Vanilla JS</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="edge-header black"></div>
+    <div class="container free-bird">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12"></div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="card-wrapper">
+                        <div id="card-1" class="card-rotating effect__click">
+
+                            <div class="face front">
+                                <div class="card-up">
+                                    <img src="computer.jpg" class="img-fluid">
+                                </div>
+                                <div class="avatar">
+                                    <a href="" id="username-link1" target="_blank"><img id="avatar" src="" class="rounded-circle img-responsive"></a>
+                                </div>
+                                <div class="card-block">
+                                    <a href="" id="username-link2" target="_blank"><h4 id="username"></h4></a>
+                                        <p id="city"></p>
+                                        <p id="company"></p>
+                                    <div class="row pt-1">
+                                        <div class="col-lg-6">
+                                            <p>Email</p>
+                                            <a id="email" class="icons-sm">
+                                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Website</p>
+                                            <a id="website" class="icons-sm" target="_blank">
+                                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a class="rotate-btn" data-card="card-1">
+                                        <i class="fa fa-repeat"></i> Back
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="face back">
+                                <h4>Bio</h4>
+                                <hr>
+                                <p id="bio"></p>
+                                <hr>
+                                <a href="" id="repoLink" target="_blank"><h4 class="pt-1">Repositories</h4></a>
+                                <p id="repo"></p>
+                                <div class="row pb-3">
+                                    <div class="col-lg-6">
+                                        <a href="" id="followerLink" target="_blank"><h4>Followers</h4></a>
+                                        <p id="followers"></p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <a href="" id="followingLink" target="_blank"><h4>Following</h4></a>
+                                        <p id="following"></p>
+                                    </div>
+                                </div>
+                                <a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Front</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="js/vendor/tether.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/mdb4.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
